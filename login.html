@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>
+        LOGIN
+      </title>
+      <style>
+        *{ 
+            padding: 0;
+            margin: 0;
+        }
+       .bg{ 
+            background:url(bg.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 100vh;
+            filter: blur(3px);
+        }
+       .login{ 
+            height: 300px;
+            width: 250px;
+            border-radius: 30px;
+            justify-content: center;
+            justify-items: center;
+            position: absolute;
+            transform: translate(-50%,-50%);
+            top: 50%;
+            left:50%;   
+        }
+       .login h3 { 
+           text-align: center;
+           font-size: 25px;
+           font-family: sans-serif Verdana;
+           color:darkgoldenrod;
+           padding: 10px;
+           margin:10px
+        }
+        .login label{ 
+            padding:10px;
+            font: bold;
+            color:rgb(84, 11, 53);
+            margin: 20px;
+            font-size:16px;
+            font-family:'Times New Roman', Times, serif;
+        }
+        .login input{ 
+            font-size:16px;
+            width:100%;
+            border:0;
+            padding:15px 10px;
+            margin: 10px;
+            outline:;
+            border-radius: 5px;
+            font-family:'Times New Roman', Times, serif;
+        }
+        .login h4{ 
+            font-size: 18px;
+            text-decoration: none;
+            color:rgb(1, 20, 6);
+        }
+         #button { 
+            width:50%;
+            border-radius: 50px;
+            display: flex;
+            column-gap: 30%;
+            height: 50px;
+            font: bold;
+            padding: 5px;
+            margin: 2px;
+         }
+         #b input{
+            display: flex;
+            background-color: rgb(234, 179, 179);
+         }
+         #b input:hover{ 
+            background-color: aqua;
+         }
+         .login h4:hover{ 
+            color:red;
+         }
+      </style>
+    </head>
+    <body>
+        <div class="bg"></div>
+        <div class="container">
+            <div class="login">
+                <h3>LOGIN</h3>
+                    <form>
+                            <h4><label>USERNAME:</label><br>
+                            <input type="text" required placeholder="Enter username"><br>
+                            <label>PASSWORD:</label><br>
+                            <input type="text" required placeholder="Enter password"></h4>
+                        <a href="#"><h4>Forgot password?</h4></a>
+                        <div id="button">  
+                        <div id="b"><input id="2" type="submit" value="LOGIN"></div>
+                         <div id="b"><input id="2" type="submit" value="SIGN UP"></div>
+                         </div>
+                        </div>
+                    </form>
+                </div>
+       </div
+    </body>
+</html>
